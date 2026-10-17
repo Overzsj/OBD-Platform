@@ -1,0 +1,33 @@
+{
+  "format": "obd-firmware-package",
+  "schema": 1,
+  "name": "Open Platform v33 vehicle",
+  "chip": "esp32",
+  "flash_bytes": 4194304,
+  "images": [
+    {
+      "file": "bootloader.bin",
+      "offset": 4096,
+      "sha256": "3d234a7471f67b013686dabd4dee7c1fa915c9928463616a94bc9297acf1abf8"
+    },
+    {
+      "file": "partitions.bin",
+      "offset": 32768,
+      "sha256": "e1a295ba428f4e3fcf6c7a56b73840dd936f5c12c2bf732cc97c8d0a447fe854"
+    },
+    {
+      "file": "boot_app0.bin",
+      "offset": 57344,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "file": "firmware.bin",
+      "offset": 65536,
+      "sha256": "77965012adfafd6045396f3bf3c323e068985c22624f0ff33030182e4fd720e8"
+    }
+  ],
+  "initialize_on_layout_change": [
+    "theme",
+    "spiffs"
+  ]
+}

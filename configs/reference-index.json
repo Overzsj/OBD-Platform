@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "source": "Car Scanner 2.1.50 user-provided extraction",
+  "redistribution": "not-included-license-unconfirmed",
+  "profile_count": 1304,
+  "brand_count": 177,
+  "pid_entries_including_repeats": 126217,
+  "adapter_names_raw": 56,
+  "adapter_names_deduplicated": 49,
+  "local_reference_directory": "OBD-本地参考资料",
+  "auto_import_to_firmware": false
+}

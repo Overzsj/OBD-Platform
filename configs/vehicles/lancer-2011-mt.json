@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "LANCER-4B10-2011-MT",
+  "make": "Mitsubishi",
+  "model": "Lancer EX China",
+  "year": 2011,
+  "engine": "4B10",
+  "transmission": "manual",
+  "protocol": "ATSP0",
+  "rpm_warning": 5000,
+  "rpm_critical": 6000,
+  "fuel_cut_rpm_user_report": 6500,
+  "gear_calibrated": false,
+  "source": "Project user report and vehicle tests; not VIN detection",
+  "unverified_signals": [
+    "oil_temp",
+    "oil_pressure",
+    "afr"
+  ]
+}

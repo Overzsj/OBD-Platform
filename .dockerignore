@@ -1,0 +1,7 @@
+.git
+**/.pio
+**/__pycache__
+**/data
+**/备份
+release
+assets

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "STANDARD-OBD-AUTO",
+  "protocol": "ATSP0",
+  "discovery": [
+    "0100",
+    "0120",
+    "0140",
+    "0902",
+    "ATDP"
+  ],
+  "theme_signals": [
+    "iat",
+    "coolant",
+    "maf",
+    "load",
+    "throttle"
+  ],
+  "alarms": {
+    "rpm_warning": 5000,
+    "rpm_critical": 6000,
+    "must_review_for_other_vehicles": true
+  },
+  "gear_calibrated": false,
+  "manufacturer_private_pids": [],
+  "note": "Documentation profile; firmware capabilities are authoritative."
+}

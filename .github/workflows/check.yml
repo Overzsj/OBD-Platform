@@ -1,0 +1,29 @@
+name: Build and verify
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/check_repository.py
+      - run: python -m unittest discover -s theme-community/tests -v
+      - run: python firmware/tests/run_host.py --compiler g++
+  firmware:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: pio run -d firmware -e vehicle -e simulation
+      - run: python scripts/package_release.py
+      - run: python -m unittest discover -s device-tool/tests -v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firmware-packages
+          path: device-tool/固件/

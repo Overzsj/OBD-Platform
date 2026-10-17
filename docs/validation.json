@@ -1,0 +1,30 @@
+{
+  "firmware_builds": [
+    "vehicle PASS",
+    "simulation PASS"
+  ],
+  "firmware_host_suites": 22,
+  "flash_service_tests": 17,
+  "community_api_tests": 19,
+  "standalone_zip_smoke": "PASS: isolated startup/download/backup",
+  "browser_checks": [
+    "home layout",
+    "theme detail",
+    "empty search",
+    "upload form"
+  ],
+  "hardware_flash_this_release": false,
+  "vehicle_validation_this_release": false,
+  "github_push": false,
+  "github_actions_executed": false,
+  "account_features": [
+    "register/login/logout",
+    "hashed passwords",
+    "expiring hashed sessions",
+    "CSRF",
+    "unique likes/favorites",
+    "owner-bound submissions",
+    "private favorites",
+    "persistent library"
+  ]
+}

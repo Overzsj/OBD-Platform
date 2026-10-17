@@ -1,0 +1,10 @@
+{
+  "platform": "espressif32@7.1.3",
+  "framework_package_local": "framework-arduinoespressif32@4.20017.260907+sha.dcc1105b",
+  "arduino_api_version": "2.0.17",
+  "toolchain": "xtensa-esp32@8.4.0+2021r2-patch5",
+  "esptool_local": "4.11.0",
+  "reference_upstream_commit": "4b056c02ec055c95f17a74767f31b62a1183fc5f",
+  "github_actions_executed": false,
+  "note": "Local dependency package metadata differs from original upstream release label. CI builds remain to be verified on GitHub."
+}

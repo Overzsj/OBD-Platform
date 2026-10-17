@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "default_mode": "BT",
+  "examples": [
+    {
+      "mode": "BT",
+      "mac": "",
+      "pin": "",
+      "note": "Auto discover; confirm adapter pairing PIN with vendor"
+    },
+    {
+      "mode": "BLE",
+      "service": "0000fff0-0000-1000-8000-00805f9b34fb",
+      "tx": "0000fff2-0000-1000-8000-00805f9b34fb",
+      "rx": "0000fff1-0000-1000-8000-00805f9b34fb",
+      "note": "Common UART example, not a universal BLE definition; verify write/notify direction"
+    },
+    {
+      "mode": "WIFI",
+      "ssid": "",
+      "password": "",
+      "host": "192.168.0.10",
+      "port": 35000,
+      "note": "Example only; confirm address and network with vendor"
+    }
+  ]
+}

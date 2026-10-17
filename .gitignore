@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pio/
+.venv/
+.env
+.env.*
+!.env.example
+**/data/
+**/artifacts/
+**/备份/
+**/历史版本/
+*.log
+*.sqlite3*
+*.elf
+*.map
+release/
+local-reference/
