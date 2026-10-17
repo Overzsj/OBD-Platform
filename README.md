@@ -1,5 +1,7 @@
 # OBD Platform
 
+在线主题社区：[shuangoggsccb.icu](https://shuangoggsccb.icu) · 项目源码：[GitHub](https://github.com/Overzsj/OBD-Platform) · 作者：[Overzsj](https://github.com/Overzsj)
+
 面向经典 ESP32 的开源 OBD 仪表平台：通用读取固件、USB 设备工具和独立运行的主题社区。
 
 本次整理基于已经使用的 v30 通用固件配置和 v32 设备工具。公开默认主题为原创几何样式 Open Instrument，原有 SUKI 图片与私人车辆记录不包含在仓库中。
