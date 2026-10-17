@@ -8,6 +8,8 @@
 
 | 你想做什么 | 入口 |
 |---|---|
+| 让 Agent 帮我安装与使用 | [复制用户使用提示词](docs/agent-user-prompt.md) |
+| 第一次使用，从零开始 | [小白使用指南](docs/beginner-guide.md) |
 | 连接设备、烧录固件或主题 | `device-tool/启动工具.cmd` |
 | 编译实车 / 模拟固件 | `firmware/`，环境 `vehicle` / `simulation` |
 | 打开主题社区 | Windows 双击 `theme-community/启动社区.cmd`；或 `python theme-community/server.py` |
